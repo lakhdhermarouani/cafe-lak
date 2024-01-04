@@ -1,0 +1,270 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* générale*/
+
+html,
+body{
+  font-family: "open Sans" ,sans-serif ;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+h1 ,
+h2 ,
+h3{
+  margin-bottom: 20px;
+}
+
+a{
+  color: #222;
+  text-decoration: none;
+}
+
+/* header */
+
+.header{
+  background: #333;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.header nav h1{
+  float: left;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.header nav ul{
+  float: right;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.header nav ul li{
+  float: left;
+}
+
+.header nav ul li a{
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.header nav h1 a{
+  color: white;
+}
+
+.header nav ul li a:hover{
+  background: #444;
+}
+
+.active{
+  background: #444;
+
+}
+
+/* vp*/
+
+.vp{
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center;
+  background-size:cover;
+  text-align: center;
+}
+
+.vp-content{
+  max-width: 500px;
+  padding-top: 150px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1{
+  font-size: 50px;
+  letter-spacing: 0.5px;
+  line-height: 1em;
+
+}
+
+.vp-content p{
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+
+}
+
+.separator{
+  margin: auto;
+  height: 10px;
+  background: #111;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.btn-primary{
+  background: white;
+  color: #222;
+
+}
+
+.btn-primary:hover{
+  background: #222;
+  color: white;
+}
+
+.my-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+/* feature */
+
+.feature{
+  float: left;
+  width: 50%;
+  padding: 20px;
+  
+}
+
+.features{
+  padding: 100px 0px;
+  overflow: auto;
+  text-align: center;
+}
+
+.person{
+  height: 500px;
+  background: url(../images/cafe3.jpg)center center /cover;
+}
+
+.reservation{
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.container{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.my-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-dark{
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover{
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+}
+
+footer{
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 30px 0px;
+  font-weight: 700;
+
+}
+
+/********** where *********/
+
+.where{
+  padding: 100px 0px ;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img{
+  float: left;
+  width: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.where-text{
+  float: right;
+  width: 50%;
+}
+
+.underline{
+  padding-bottom: 10px;
+  border-block-start: 1px solid #555;
+}
+
+.chip{
+  width: 35px;
+  text-align: center;
+  background-repeat: 100%;
+  background: #333;
+  color: white;
+  display: inline-block;
+}
+
+.chip-purple{
+
+  background: #a0006e;
+}
+
+.chip-brown{
+
+  background: #aa4105;
+}
+
+/******* contact *******/
+
+  .contact{
+    padding: 100px 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea{
+  width: 361px;
+  height: 45px;
+  border: 1px solid #ddd; 
+  
+}
+
+.contact label{
+  line-height: 1.9em;
+  margin-bottom: 20px;
+  
+}
+
+.contact textarea{
+  margin-bottom: 10px;
+}
